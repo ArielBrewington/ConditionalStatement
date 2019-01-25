@@ -23,70 +23,70 @@ namespace ConditionalStatement
                     
                 }
 
-                else if ((Score <= 60) && (Score >= 61))
+                else if ((Score >= 60) && (Score <= 61))
                 {
                     Console.WriteLine("You received a D-");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                     
                 }
-                else if ((Score <= 62) && (Score >= 67))
+                else if ((Score >= 62) && (Score <= 67))
                 {
                     Console.WriteLine("You received a D");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                 }
-                else if ((Score <= 70) && (Score >= 71))
+                else if ((Score >= 70) && (Score <= 71))
                 {
                     Console.WriteLine("You received a C-");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                 }
-                else if ((Score <= 72) && (Score >= 77))
+                else if ((Score >= 72) && (Score <= 77))
                 {
                     Console.WriteLine("You received a C");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                 }
-                else if ((Score <= 78) && (Score >= 79))
+                else if ((Score >= 78) && (Score <= 79))
                 {
                     Console.WriteLine("You received a C+");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                 }
-                else if ((Score <= 80) && (Score >= 81))
+                else if ((Score >= 80) && (Score <= 81))
                 {
                     Console.WriteLine("You received a B-");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                 }
-                else if ((Score <= 82) && (Score >= 87))
+                else if ((Score >= 82) && (Score <= 87))
                 {
                     Console.WriteLine("You received a B");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                 }
 
-                else if ((Score <= 88) && (Score >= 89))
+                else if ((Score >= 88) && (Score <= 89))
                 {
                     Console.WriteLine("You received a B+");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                 }
-                else if ((Score <= 90) && (Score >= 91))
+                else if ((Score >= 90) && (Score <= 91))
                 {
                     Console.WriteLine("You received an A-");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                 }
-                else if ((Score <= 92) && (Score >= 97))
+                else if ((Score >= 92) && (Score <= 97))
                 {
                     Console.WriteLine("You received an A");
                     Console.WriteLine("Press any key to  exit the program");
                     Console.ReadKey(true);
                 }
 
-                else if ((Score <= 98) && (Score >= 100))
+                else if ((Score >= 98) && (Score <= 100))
                 {
                     Console.WriteLine("You receieved an A+");
                     Console.WriteLine("Press any key to  exit the program");
